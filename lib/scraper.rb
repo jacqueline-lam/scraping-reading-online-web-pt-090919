@@ -13,3 +13,4 @@ doc.css(".headline-26OIBN")
 
 # [#<Nokogiri::XML::Element:0x3fdb39ac8380 name="h1" attributes=[#<Nokogiri::XML::Attr:0x3fdb39ac86dc name="class" value="headline-26OIBN">] children=[#<Nokogiri::XML::Text:0x3fdb39ac5d60 "Change things.">]>]
 
+doc.css(".headline-26OIBN").text
