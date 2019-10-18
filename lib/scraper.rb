@@ -18,3 +18,6 @@ doc.css(".headline-26OIBN")
   # scraped by Nokogiri
 doc.css(".headline-26OIBN").text
 # => "Change things."
+
+
+puts doc.css(".headline-26OIBN")
