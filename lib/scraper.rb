@@ -27,3 +27,9 @@ puts doc.css(".headline-26OIBN")
 # just add .text (and .strip) and get only the text contained inside the element that we want
 # Alternatively, using p will produce the array-like object we saw from before.
 
+# Iterating over elements
+courses = doc.css("#2a778efd-1685-5ec6-9e5a-0843d6a88b7b .inlineMobileLeft-2Yo002.imageTextBlockGrid3-2XAK6G")
+ 
+courses.each do |course|
+  puts course.text.strip
+end
