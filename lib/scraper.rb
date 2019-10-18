@@ -14,4 +14,6 @@ doc.css(".headline-26OIBN")
 # returned what looks like an Array containing one Nokogiri object
 # [#<Nokogiri::XML::Element:0x3fdb39ac8380 name="h1" attributes=[#<Nokogiri::XML::Attr:0x3fdb39ac86dc name="class" value="headline-26OIBN">] children=[#<Nokogiri::XML::Text:0x3fdb39ac5d60 "Change things.">]>]
 
+# .text to access text content inside an element
+  # scraped by Nokogiri
 doc.css(".headline-26OIBN").text
