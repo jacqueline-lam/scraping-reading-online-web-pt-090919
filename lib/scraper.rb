@@ -7,3 +7,5 @@ html = open("https://flatironschool.com/")
   # and convert it into a NodeSet (bunch of nested "nodes") 
   # that we can easily play around with.
 doc = Nokogiri::HTML(html)
+
+doc.css(".headline-26OIBN")
