@@ -21,6 +21,8 @@ doc.css(".headline-26OIBN").text
 
 # using puts or print on doc.css will cause 
   # the HTML elements to print out
+  # p craetes array-like object we saw from before
+
 puts doc.css(".headline-26OIBN")
 # => <h1 class="headline-26OIBN">Change things.</h1>
 
