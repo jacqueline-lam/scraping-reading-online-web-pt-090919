@@ -19,5 +19,6 @@ doc.css(".headline-26OIBN")
 doc.css(".headline-26OIBN").text
 # => "Change things."
 
-
+# using puts or print on doc.css will cause 
+  # the HTML elements to print out
 puts doc.css(".headline-26OIBN")
