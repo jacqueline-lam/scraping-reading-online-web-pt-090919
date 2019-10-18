@@ -17,3 +17,4 @@ doc.css(".headline-26OIBN")
 # .text to access text content inside an element
   # scraped by Nokogiri
 doc.css(".headline-26OIBN").text
+# => "Change things."
